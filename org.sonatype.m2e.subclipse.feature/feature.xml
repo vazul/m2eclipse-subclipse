@@ -7,7 +7,8 @@
       plugin="org.sonatype.m2e.subclipse">
 
    <description url="http://m2eclipse.sonatype.org/">
-      Checkout Maven projects from SVN
+      Checkout Maven projects from SVN.
+Compatible with Subclipse 1.8 also
    </description>
 
    <copyright url="http://www.sonatype.com/">
