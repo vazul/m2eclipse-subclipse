@@ -2,13 +2,14 @@
 <feature
       id="org.sonatype.m2e.subclipse.feature"
       label="Maven SCM handler for Subclipse"
-      version="0.13.1.qualifier"
+      version="0.13.2.qualifier"
       provider-name="Sonatype, Inc."
       plugin="org.sonatype.m2e.subclipse">
 
    <description url="http://m2eclipse.sonatype.org/">
       Checkout Maven projects from SVN.
-Compatible with Subclipse 1.8 also
+Compatible with Subclipse 1.8 also.
+Compatible with m2e 1.2.0 also.
    </description>
 
    <copyright url="http://www.sonatype.com/">
@@ -27,9 +28,9 @@ http://www.eclipse.org/legal/epl-v10.html
    </url>
 
    <requires>
-      <import feature="org.eclipse.platform" version="3.4.0" match="greaterOrEqual"/>
-      <import feature="org.eclipse.m2e.feature"/>
-      <import feature="org.tigris.subversion.subclipse"/>
+      <import feature="org.eclipse.platform" version="3.6.0" match="greaterOrEqual"/>
+      <import feature="org.eclipse.m2e.feature" version="1.0.0" match="greaterOrEqual"/>
+      <import feature="org.tigris.subversion.subclipse" version="1.6.0" match="greaterOrEqual"/>
    </requires>
 
    <plugin
